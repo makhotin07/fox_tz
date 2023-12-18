@@ -1,0 +1,7 @@
+Generic single-database configuration.
+
+# создание миграций
+alembic revision --autogenerate -m "create_table"
+
+# применение миграций
+alembic upgrade head
